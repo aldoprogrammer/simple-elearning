@@ -1,0 +1,68 @@
+.container-video {
+    width: 80%;
+    background: #fff;
+    padding: 50px;
+    margin: 50px auto;
+
+}
+
+.container-video iframe {
+    width: 850px;
+    height: 400px;
+    margin: 20px 20px;
+}
+
+.overview .card {
+    width: 850px;
+    margin-left: 20px;
+}
+
+.overview .input-group {
+    width: 800px;
+    margin: 30px auto;
+}
+
+.container-button {
+    width: 850px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1024px) {
+    .container-video {
+        width: 100%;
+    }
+    .container-video iframe {
+        width: 95%;
+        height: 400px;
+        margin: 20px 20px;
+    }
+    .overview .card,
+    .container-button {
+        width: 95%;
+    }
+}
+
+@media (max-width: 490px) {
+    .container-video {
+        width: 100%;
+    }
+    .container-video iframe {
+        width: 250px;
+        height: 400px;
+        margin: 20px 20px;
+    }
+    .overview .card{
+        width: 80%;
+        
+    }
+    .container-button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container-button button {
+        width: 100px;
+    }
+}
